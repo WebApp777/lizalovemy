@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лиза, я тебя люблю :З</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main-background">
+    <div id="hi-milena-page">
+        <h1 class="bold pa ml-4 tr trmt" id="hi-milena">Ну, Зайка,</h1>
+        <h1 class="bold pa ml-4 tr trmt" id="hi-milena-2">привет!</h1>
+
+        <h1 class="normal pa ml-4 tr trmt" id="hi-milena-3">
+            Я очень рад, что ты <br>
+            находишься на этой страничке <br>
+        </h1>
+
+        <h1 class="normal pa ml-4 tr trmt" id="hi-milena-4">
+            Значит не все не так плохо <br>
+            как я себе представляю :З
+        </h1>
+
+        <h1 class="normal pa ml-4 tr trmt" id="hi-milena-5">
+            А это онлайн письмо, ну <br>
+            как видишь :D
+        </h1>
+
+        <img class="tr pa trmt" src="assets/svg/heart.svg" alt="Heart" id="hi-milena-heart" onclick="hi_milena_click()" />
+
+        <h1 class="light pa tr tc trmt" id="hi-milena-heart-text" onclick="hi_milena_click()">
+            Жмякни на меня :З
+        </h1>
+    </div>
+    <div id="love-you-page">
+        <h1 class="light pa tr ml-5 trmt" id="lu-1">Разумеется,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="lu-2">я затеял</h1>
+        <h1 class="light pa tr ml-5 trmt" id="lu-3">это все</h1>
+        <h1 class="light pa tr ml-5 trmt" id="lu-4">не просто так,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="lu-5">а для того,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="lu-6">чтобы сказать</h1>
+        <h1 class="medium pa tr-1 ml-5 trmt" id="lu-7">я тебя люблю</h1>
+
+        <img class="tr pa trmt" src="assets/svg/hot-air-balloon.svg" alt="Heart" id="lu-image" />
+
+        <img class="tr pa trmt" src="assets/svg/heart-gift.svg" alt="Heart" id="lu-image-l" />
+        <img class="tr pa trmt" src="assets/svg/greeting-card.svg" alt="Heart" id="lu-image-r" />
+
+        <h1 class="normal pa tr tc trmt next-u" id="lu-next" onclick="lu_click()">Далее</h1>
+        <h1 class="lighter pa tr tc trmt comment-u" id="lu-comment" onclick="lu_click()">
+            Жмякай на надпись, <br>
+            не бойся :)
+        </h1>
+    </div>
+    <div id="you-know-page">
+        <h1 class="medium pa tr ml-5 trmt" id="yk-1">Знаешь,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="yk-2">за эти 33 дня</h1>
+        <h1 class="light pa tr ml-5 trmt" id="yk-3">я многое понял, то,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="yk-4">насколько дорога</h1>
+        <h1 class="light pa tr ml-5 trmt" id="yk-5">твоя улыбка,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="yk-6">твои слова,</h1>
+        <h1 class="light pa tr-1 ml-5 trmt" id="yk-7">уникальность и</h1>
+        <h1 class="light pa tr-1 ml-5 trmt" id="yk-8">особенность,</h1>
+        <h1 class="light pa tr-1 ml-5 trmt" id="yk-9">ты самое главное -</h1>
+        <h1 class="light pa tr-1 ml-5 trmt" id="yk-10">
+            <label class="medium">ты</label> источник моего вдохновения.
+        </h1><br><br><br><br>
+
+        <img class="tr pa trmt" src="assets/svg/cloud.svg" alt="Heart" id="yk-image" />
+
+        <h1 class="normal pa tr-1 ml-5 trmt" id="yk-11">Я бы очень хотел,</h1>
+        <h1 class="normal pa tr-1 ml-5 trmt" id="yk-12">стать для тебя всем...</h1>
+
+        <img class="tr pa trmt" src="assets/svg/balloon.svg" alt="Heart" id="yk-image-l" />
+        <img class="tr pa trmt" src="assets/svg/screen.svg" alt="Heart" id="yk-image-r" />
+
+        <h1 class="normal pa tr tc trmt next-u" id="yk-next" onclick="yk_click()">Далее</h1>
+        <h1 class="lighter pa tr tc trmt comment-u" id="yk-comment" onclick="yk_click()">
+            Жмякай на надпись <br>
+            если прочитала
+        </h1>
+    </div>
+    <div id="my-mistakes-page">
+        <h1 class="medium pa tr ml-5 trmt" id="mm-1">Честно говоря,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="mm-2">я не хочу всё это</h1>
+        <h1 class="light pa tr ml-5 trmt" id="mm-3">взять и оставить,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="mm-4">
+            упустить <label class="medium">тебя</label>
+        </h1>
+
+        <img class="tr pa trmt" src="assets/svg/cupcake.svg" alt="Heart" id="mm-image" />
+
+        <h1 class="light pa tr ml-5 trmt" id="mm-6">
+            <label class="medium">Я допустил</label> слишком много
+        </h1>
+        <h1 class="light pa tr-1 ml-5 trmt" id="mm-7">ошибок, последнее время,</h1>
+        <h1 class="light pa tr-1 ml-5 trmt" id="mm-8"> и не хочу терять</h1>
+        <h1 class="light pa tr-1 ml-5 trmt" id="mm-9">свое счастье,</h1>
+        <h1 class="light pa tr-1 ml-5 trmt" id="mm-10">жду когда у нас снова</h1>
+        <h1 class="light pa tr-1 ml-5 trmt" id="mm-11">все будет хорошо</h1>
+
+        <h1 class="normal pa tr-1 ml-5 trmt" id="mm-13">Я очень скучаю</h1>
+        <h1 class="normal pa tr-1 ml-5 trmt" id="mm-14">без тебя...</h1>
+
+        <img class="tr pa trmt" src="assets/svg/smartphone.svg" alt="Heart" id="mm-image-l" />
+        <img class="tr pa trmt" src="assets/svg/coffee.svg" alt="Heart" id="mm-image-r" />
+
+        <h1 class="normal pa tr tc trmt next-u" id="mm-next" onclick="mm_click()">Далее</h1>
+        <h1 class="lighter pa tr tc trmt comment-u" id="mm-comment" onclick="mm_click()">
+            Жмякай на надпись,<br>
+            это бесплатно :)
+        </h1>
+    </div>
+    <div id="invite-page">
+        <img class="tr pa trmt" src="assets/svg/butterfly.svg" alt="Heart" id="i-image" />
+
+        <h1 class="medium pa tr ml-5 trmt" id="i-1">В общем,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="i-2">я уверен,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="i-3">ты тоже этого хочешь</h1>
+        <h1 class="light pa tr ml-5 trmt" id="i-4">даже после всего,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="i-5">что произошло,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="i-6">ты меня любишь,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="i-7">я это чувствую,</h1>
+        <h1 class="light pa tr ml-5 trmt" id="i-8">давай забудем обо всем</h1>
+        <h1 class="light pa tr ml-5 trmt" id="i-9">мы выше этого.</h1>
+        <h1 class="light pa tr ml-5 trmt" id="i-10">Спасобо тебе, за все</h1>
+        <h1 class="light pa tr ml-5 trmt" id="i-11">я с тобой очень счастлив :)</h1>
+
+        <h1 class="normal pa tr-1 ml-5 trmt" id="i-12">Ответь кружочном</h1>
+        <h1 class="normal pa tr-1 ml-5 trmt" id="i-13">ну или же отпиши,</h1>
+        <h1 class="normal pa tr-1 ml-5 trmt" id="i-14">я буду ждать с нетерпением.</h1>
+
+        <h1 class="normal pa tr tc trmt comment-u" id="i-comment">
+            С любовью, очень измученный от <br>
+            суровой жизни твой Котя :>
+        </h1>
+        <img class="tr pa trmt" src="assets/svg/letter.svg" alt="Heart" id="i-image-b" />
+    </div>
+</body>
+</html>
